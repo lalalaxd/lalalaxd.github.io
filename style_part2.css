@@ -1,0 +1,133 @@
+/**
+start main
+**/
+*{
+    padding: 0;
+    margin: 0;
+}
+.containor{
+    width: 92%;
+    margin: auto;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.1;
+}
+/**
+end main
+**/
+
+
+/*
+start div
+*/
+.div1{
+    position: relative;
+    background-image: url(images/imgimg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.div2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+.div2 p{
+    margin-top: 25px;
+    color: rgb(39, 37, 60);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+
+.div2 a button{
+
+
+    background-color:rgb(39, 37, 60);
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px 60px;
+    margin: 60px 20px 60px 0px;
+    border: 2px solid rgb(39, 37, 60);
+    border-radius: 30px;
+}
+ .div2 a button:hover{
+    color: rgb(39, 37, 60);
+    background-color: #fff;
+}
+
+.div3{
+    height: 200px;
+    background: rgb(39, 37, 60);
+    text-align: center;
+}
+
+
+ .div3 .containor .d1,.d2,.d3{
+float: left;
+width:33.33%;
+margin-top: 50px;
+
+ }
+ .div3 .containor  .p1{
+    color: rgb(142, 142, 171);
+   font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+.who{
+  float: left;
+  width: 100%;
+  margin-bottom:150px;
+  margin-top:100px;
+}
+.speech{
+  margin-left:100px;
+  display:inline-block;
+}
+ .div3 .containor .p2,.p3{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 0.3rem;
+    margin-left: 25px;
+}
+ .who .containor h1{
+     color: rgb(39, 37, 60);
+     margin-top: 60px;
+     font-size: 3em;
+     font-weight: bolder;
+ }
+ .who .containor p{
+    color: rgb(81, 81, 109);
+font-size: 2em;
+margin-top: 20px;
+width: 600px;
+
+ }
+ .imgwho{
+   display:inline-block;
+   width:30%;
+   float:right;
+   margin:60px;
+   margin-right:160px;
+   margin-top:150px;
+  }
+/*
+end div
+*/
